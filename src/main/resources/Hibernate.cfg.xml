@@ -24,5 +24,6 @@
         </property>
         <property name="hibernate.connection.password">
         </property>
+        <mapping class="com.sda.hibernate.entity.Bookentity"></mapping>
     </session-factory>
 </hibernate-configuration>

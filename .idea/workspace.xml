@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e365d2c-dbbf-4271-bb6f-99ec1f3fdb77" name="Default" comment="" />
+    <list default="true" id="7e365d2c-dbbf-4271-bb6f-99ec1f3fdb77" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +25,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hibernate.cfg.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hibernate.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pm/sda/hibernate/entity/BookEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1185">
+              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="e#1852#1853#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2013#2014#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2105#2106#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2169#2170#0" expanded="true" />
+                <element signature="e#2215#2216#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2284#2285#0" expanded="true" />
+                <element signature="e#2314#2315#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2399#2400#0" expanded="true" />
+                <element signature="e#2425#2426#0" expanded="true" />
+                <element signature="e#2450#2451#0" expanded="true" />
+                <element signature="e#2483#2484#0" expanded="true" />
+                <element signature="e#2511#2512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +112,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,6 +134,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.15.Final/hibernate-core-5.2.15.Final.jar!/org/hibernate/engine/FetchStrategy.class" />
         <option value="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pm/sda/hibernate/entity/BookEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" />
       </list>
     </option>
@@ -140,6 +195,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.pm.sda.hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.pm.sda.hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.pm.sda.hibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -373,9 +437,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pm/sda/hibernate/entity/BookEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1185">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2511#2512#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
