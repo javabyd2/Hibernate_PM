@@ -1,11 +1,8 @@
 package com.pm.sda.hibernate.entity;
 
-import org.hibernate.annotations.GeneratorType;
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Date;
-
 
 @Entity
 @Table(name = "books")
@@ -114,7 +111,6 @@ public class BookEntity {
     public void setId(int id) {
         this.id = id;
     }
-
 
 
 }
