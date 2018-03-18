@@ -13,9 +13,9 @@ public class BookEntity {
     private String title;
     @Column(name = "author", nullable = false, length = 128)
     private String author;
-    @Column(name = "published", nullable = false)
+    @Column(name = "published", nullable = true)
     private Date published;
-    @Column(name = "isbn", nullable = false, length = 13)
+    @Column(name = "isbn", nullable = true, length = 13)
     private String isbn;
     @Column(name = "category", nullable = true, length = 128)
     private String category;
@@ -23,9 +23,9 @@ public class BookEntity {
     private Integer pageCount;
     @Column(name = "publisher", nullable = true, length = 128)
     private String publisher;
-    @Column(precision = 2)
+    @Column(precision = 2, name = "price", nullable = true, length = 128)
     private BigDecimal price;
-    @Column(name = "onStock", nullable = false, length = 128)
+    @Column(name = "onStock", nullable = true, length = 128)
     private Integer onStock;
 
     @Id

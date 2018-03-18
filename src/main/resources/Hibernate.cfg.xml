@@ -23,10 +23,11 @@
             false
         </property>
         <property name="hibernate.connection.password">
+            password
         </property>
         <property name="hibernate.hbm2ddl.auto">
             update
         </property>
-        <mapping class="com.sda.hibernate.entity.Bookentity"></mapping>
+        <mapping class="com.pm.sda.hibernate.entity.BookEntity"/>
     </session-factory>
 </hibernate-configuration>
